@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String
-engine = create_engine('mysql+pymysql://root@localhost:3306/easyque', echo = True)
+engine = create_engine('mysql+pymysql://easyque:Easyque@2022@localhost:3306/easyque', echo = True)
 meta = MetaData()
 conn = engine.connect()
 
